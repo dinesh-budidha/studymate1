@@ -24,8 +24,8 @@ IBM_WATSON_API_KEY = os.getenv("IBM_WATSON_API_KEY", "")
 IBM_WATSON_URL = os.getenv("IBM_WATSON_URL", "")
 
 # Model Configuration
-DEFAULT_LLM_MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
-DEFAULT_EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+DEFAULT_LLM_MODEL = "gpt2"  # Use GPT-2 as it's lighter and more reliable
+DEFAULT_EMBEDDING_MODEL = "all-MiniLM-L6-v2"  # Keep this as it's reliable
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 
